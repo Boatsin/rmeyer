@@ -1,8 +1,8 @@
 body
 {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 62.5%;
-    font-weight: 300;
+    font-size:    62.5%;
+    font-weight:  300;
 }
 
 header, section, footer
@@ -11,6 +11,11 @@ header, section, footer
 }
 
 // <!----------- HEADER ----------->
+header // Change to white after bg is set
+{
+    color: lightgray; 
+}
+
 .header__greet
 {
     font-size: 1.6em;
@@ -19,8 +24,8 @@ header, section, footer
 .header__name
 {
     font-family: 'Playfair Display', serif;
-    font-size: 8em;
-    font-weight: bold;
+    font-size:    8em;
+    font-weight:  bold;
 }
 
 .header__description
@@ -31,16 +36,18 @@ header, section, footer
 // <!----------- ABOUT #1 & #2 ----------->
 .about__01__01, .about__02__02, .gallery__03
 {
+    color:     gray;
     font-family: 'Playfair Display', serif;
-    font-size: 7.8em;
-    font-weight: bold;
+    font-size:    7.8em;
+    font-weight:  bold;
 }
 
 .about__01__subtitle-01, .about__02__subtitle-02, .gallery__subtitle
 {
+    color:     blue;
     font-family: 'Playfair Display', serif;
-    font-size: 5.5em;
-    font-weight: bold;
+    font-size:    5.5em;
+    font-weight:  bold;
 }
 
 .about__01__subtitle-01 span, .about__02__subtitle-02 span, .gallery__subtitle span
@@ -52,10 +59,67 @@ header, section, footer
 
   
 // <!----------- ABOUT #2 ----------->
+.gallery__card // Change to white after bg is set
+{
+    color: lightgrey;
+}
+
+.gallery__card__title
+{   // REFACTOR repeats
+    font-family: 'Playfair Display', serif;
+    font-size:    3.2em;
+    font-weight:  bold;
+}
+
   
 // <!----------- QUOTE ----------->
+.quote__text
+{   // REFACTOR repeats
+    color:      blue;
+    font-family: 'Playfair Display', serif;
+    font-size:    3.2em;
+    font-weight:  bold;
+}
+
+.quote__text span
+{
+    color: grey;
+}
   
 // <!----------- CONTACT ----------->
-  
-// <!----------- FOOTER ----------->
+.contact__git__04
+{
+    color:      gray;
+    font-family: 'Playfair Display', serif;
+    font-size:    7.8em;
+    font-weight:  bold;
+}
 
+.contact__git__title
+{
+    color:     blue;
+    font-family: 'Playfair Display', serif;
+    font-size:    5.5em;
+}
+
+.contact__btn
+{
+    color:   blue;
+    font-size: 1.5em;
+}
+
+.info__email-text, .info__skype-text, .info__social-text, .info__tel-text
+{
+    color:  gray;
+    font-size: 1.5em;
+}
+
+.info__email, .info__skype, .info__tel
+{
+    color:     blue;
+    font-family: 'Playfair Display', serif;
+    font-size:    2.2em;
+    font-weight:  bold;
+}
+
+// <!----------- FOOTER ----------->
