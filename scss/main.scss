@@ -1,0 +1,28 @@
+@import 'partials/colors';
+@import 'font';
+@import 'block';
+@import 'element';
+@import 'modifier';
+
+// Remember about @extend to keep your code DRY
+/*
+%message {
+  css
+}
+...
+body {
+    @extend %message
+}
+
+Or just refactor properly
+*/
+
+// Media queries at 1920px, 860px, and 320px
+
+*, *::before, *::after
+{
+    box-sizing: border-box;
+}
+
+
+  
