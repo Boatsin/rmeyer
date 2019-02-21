@@ -1,6 +1,55 @@
+body
+{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 62.5%;
+    font-weight: 300;
+}
+
+header, section, footer
+{
+    font-size: 1.6em;
+}
+
 // <!----------- HEADER ----------->
-  
+.header__greet
+{
+    font-size: 1.6em;
+}  
+
+.header__name
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 8em;
+    font-weight: bold;
+}
+
+.header__description
+{
+    font-size: 2.1em;
+}
+
+// <!----------- ABOUT #1 & #2 ----------->
+.about__01__01, .about__02__02, .gallery__03
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 7.8em;
+    font-weight: bold;
+}
+
+.about__01__subtitle-01, .about__02__subtitle-02, .gallery__subtitle
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 5.5em;
+    font-weight: bold;
+}
+
+.about__01__subtitle-01 span, .about__02__subtitle-02 span, .gallery__subtitle span
+{
+    color: grey;
+}
+
 // <!----------- ABOUT #1 ----------->
+
   
 // <!----------- ABOUT #2 ----------->
   
