@@ -3,6 +3,7 @@ body
     font-family: 'Fira Sans', sans-serif;
     font-size:    62.5%;
     font-weight:  300;
+    color:      white;
 }
 
 header, section, footer
@@ -13,7 +14,7 @@ header, section, footer
 // <!----------- HEADER ----------->
 header // Change to white after bg is set
 {
-    color: lightgray; 
+    color: white; 
 }
 
 .header__greet
@@ -44,7 +45,7 @@ header // Change to white after bg is set
 
 .about__01__subtitle-01, .about__02__subtitle-02, .gallery__subtitle
 {
-    color:     blue;
+    color:       $blue;
     font-family: 'Playfair Display', serif;
     font-size:    5.5em;
     font-weight:  bold;
@@ -52,7 +53,7 @@ header // Change to white after bg is set
 
 .about__01__subtitle-01 span, .about__02__subtitle-02 span, .gallery__subtitle span
 {
-    color: grey;
+    color: $grey;
 }
 
 // <!----------- ABOUT #1 ----------->
@@ -75,7 +76,7 @@ header // Change to white after bg is set
 // <!----------- QUOTE ----------->
 .quote__text
 {   // REFACTOR repeats
-    color:      blue;
+    color:       $blue;
     font-family: 'Playfair Display', serif;
     font-size:    3.2em;
     font-weight:  bold;
@@ -83,13 +84,13 @@ header // Change to white after bg is set
 
 .quote__text span
 {
-    color: grey;
+    color: $grey;
 }
   
 // <!----------- CONTACT ----------->
 .contact__git__04
 {
-    color:      gray;
+    color:       $grey;
     font-family: 'Playfair Display', serif;
     font-size:    7.8em;
     font-weight:  bold;
@@ -97,29 +98,33 @@ header // Change to white after bg is set
 
 .contact__git__title
 {
-    color:     blue;
+    color:       $blue;
     font-family: 'Playfair Display', serif;
     font-size:    5.5em;
 }
 
 .contact__btn
 {
-    color:   blue;
+    color:    $blue;
     font-size: 1.5em;
 }
 
 .info__email-text, .info__skype-text, .info__social-text, .info__tel-text
 {
-    color:  gray;
+    color:  $grey;
     font-size: 1.5em;
 }
 
 .info__email, .info__skype, .info__tel
 {
-    color:     blue;
+    color:       $blue;
     font-family: 'Playfair Display', serif;
     font-size:    2.2em;
     font-weight:  bold;
 }
 
 // <!----------- FOOTER ----------->
+footer
+{
+    color: white;
+}
