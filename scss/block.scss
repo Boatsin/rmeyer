@@ -58,6 +58,18 @@ header
 {
     background-color: #1976D2;
 }
+
+.about__01, .about__02
+{
+    height: 100vh;
+    display: flex;
+    flex-grow: 1;
+}
+
+.about__01__fig
+{
+    max-width: 315px;
+}
   
 // <!----------- ABOUT #2 ----------->
 .gallery
