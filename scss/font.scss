@@ -1,9 +1,11 @@
+$blue: #0B6890;
+$grey: #B5B5B5;
 body
 {
     font-family: 'Fira Sans', sans-serif;
     font-size:    62.5%;
     font-weight:  300;
-    color:      white;
+    color:      black;
 }
 
 header, section, footer
@@ -35,11 +37,16 @@ header // Change to white after bg is set
 }
 
 // <!----------- ABOUT #1 & #2 ----------->
+.about
+{
+    color: black;
+}
+
 .about__01__01, .about__02__02, .gallery__03
 {
-    color:     gray;
+    color:       $grey;
     font-family: 'Playfair Display', serif;
-    font-size:    7.8em;
+    font-size:    5.8em;
     font-weight:  bold;
 }
 
@@ -47,13 +54,19 @@ header // Change to white after bg is set
 {
     color:       $blue;
     font-family: 'Playfair Display', serif;
-    font-size:    5.5em;
+    font-size:    3.5em;
     font-weight:  bold;
 }
 
 .about__01__subtitle-01 span, .about__02__subtitle-02 span, .gallery__subtitle span
 {
     color: $grey;
+}
+
+.about__01__description-01, .about__02__description-02
+{
+    font-size:   1em;
+    line-height: 1.8em;
 }
 
 // <!----------- ABOUT #1 ----------->

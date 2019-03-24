@@ -53,25 +53,48 @@ header
     0% { transform: translateY(-15px); }
 }
   
-// <!----------- ABOUT #1 ----------->
+// <!----------- ABOUT ----------->
 .about
 {
-    background-color: #1976D2;
+    // background-color: #1976D2;
 }
 
 .about__01, .about__02
 {
-    height: 100vh;
-    display: flex;
-    flex-grow: 1;
+    position:        relative;
+    height:          100vh;
+    width:           1230px;
+    display:         flex;
+    justify-content: space-between; 
+    align-items: center;
 }
 
-.about__01__fig
+.about__01__fig, .about__02__fig
 {
-    max-width: 315px;
+    max-width: 615px;
 }
+
+.about__01__subtitle-01, .about__02__subtitle-02
+{
+    margin: 0.8em 0;
+
+    span
+    {
+        display: block;
+    }
+}
+
+// ABOUT 01
+.about__01__img
+{
+    position:  absolute;
+    top:       50%;
+    right:     0;
+    transform: translate(40%, -50%);
+}
+// ABOUT 02
   
-// <!----------- ABOUT #2 ----------->
+// <!----------- GALLERY ----------->
 .gallery
 {
     background-color: #2196F3;
