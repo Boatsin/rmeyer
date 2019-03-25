@@ -66,7 +66,7 @@ header
     width:           1230px;
     display:         flex;
     justify-content: space-between; 
-    align-items: center;
+    align-items:     center;
 }
 
 .about__01__fig, .about__02__fig
@@ -84,20 +84,52 @@ header
     }
 }
 
+.about__01__img, .about__02__img
+{
+    position: absolute;
+}
+
 // ABOUT 01
 .about__01__img
 {
-    position:  absolute;
     top:       50%;
     right:     0;
     transform: translate(40%, -50%);
 }
+
 // ABOUT 02
+
+.about__02__img
+{
+    top:       50%;
+    left:      0;
+    transform: translate(-40%, -50%);
+}
+
+.about__02
+{
+    flex-direction: row-reverse;
+}
+
+.about__02__02
+{
+    text-align: right;
+}
+
+
   
 // <!----------- GALLERY ----------->
 .gallery
 {
     background-color: #2196F3;
+}
+
+.gallery__subtitle
+{
+    span
+    {
+        display: block;
+    }
 }
   
 // <!----------- QUOTE ----------->

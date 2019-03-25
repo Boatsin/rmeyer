@@ -65,7 +65,7 @@ header // Change to white after bg is set
 
 .about__01__description-01, .about__02__description-02
 {
-    font-size:   1em;
+    font-size:   1.2em;
     line-height: 1.8em;
 }
 
@@ -75,7 +75,7 @@ header // Change to white after bg is set
 // <!----------- ABOUT #2 ----------->
 .gallery__card // Change to white after bg is set
 {
-    color: lightgrey;
+    color: $grey;
 }
 
 .gallery__card__title
