@@ -72,7 +72,34 @@ header // Change to white after bg is set
 // <!----------- ABOUT #1 ----------->
 
   
-// <!----------- ABOUT #2 ----------->
+// <!------------ GALLERY ----------->
+.gallery
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery__wrap
+{
+    width:     1230px;
+    display:   flex;
+    flex-wrap: wrap;
+    // justify-content: center;
+}
+
+.gallery__card
+{
+    height: 100%;
+}
+
+.gallery__img
+{
+    height:  100%;
+    padding: 0.2rem;
+    flex-grow: 1;
+}
+
 .gallery__card // Change to white after bg is set
 {
     color: $grey;
