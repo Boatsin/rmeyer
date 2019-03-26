@@ -96,8 +96,8 @@ header // Change to white after bg is set
 .gallery__img
 {
     height:  100%;
-    padding: 0.2rem;
-    flex-grow: 1;
+    padding:   0.2rem;
+    flex-grow: 1; // Without this the pics don't fill the whole space
 }
 
 .gallery__card // Change to white after bg is set

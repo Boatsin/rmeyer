@@ -94,7 +94,7 @@ header
 {
     top:       50%;
     right:     0;
-    transform: translate(40%, -50%);
+    transform: translate(30%, -50%);
 }
 
 // ABOUT 02
@@ -103,12 +103,18 @@ header
 {
     top:       50%;
     left:      0;
-    transform: translate(-40%, -50%);
+    transform: translate(-30%, -50%);
 }
 
 .about__02
 {
     flex-direction: row-reverse;
+}
+
+.about__02__fig
+{
+    display: flex;
+    flex-direction: column;
 }
 
 .about__02__02
@@ -121,7 +127,7 @@ header
 // <!----------- GALLERY ----------->
 .gallery
 {
-    background-color: #2196F3;
+    // background-color: #2196F3;
 }
 
 .gallery__subtitle
@@ -135,13 +141,15 @@ header
 // <!----------- QUOTE ----------->
 .quote
 {
-    background-color: #BBDEFB;
+    // background-color: #BBDEFB;
+    height: 100vh;
 }
   
 // <!----------- CONTACT ----------->
 .contact
 {
-    background-color: #BDBDBD;
+    // background-color: #BDBDBD;
+    height: 100vh;
 }
   
 // <!----------- FOOTER ----------->
