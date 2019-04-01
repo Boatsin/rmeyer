@@ -142,7 +142,8 @@ header // Change to white after bg is set
 {
     color:       $blue;
     font-family: 'Playfair Display', serif;
-    font-size:    5.5em;
+    font-size:    5em;
+    font-weight:  bold;
 }
 
 .contact__btn
@@ -153,7 +154,7 @@ header // Change to white after bg is set
 
 .info__email-text, .info__skype-text, .info__social-text, .info__tel-text
 {
-    color:  $grey;
+    color:    $grey;
     font-size: 1.5em;
 }
 
@@ -161,7 +162,7 @@ header // Change to white after bg is set
 {
     color:       $blue;
     font-family: 'Playfair Display', serif;
-    font-size:    2.2em;
+    font-size:    2em;
     font-weight:  bold;
 }
 

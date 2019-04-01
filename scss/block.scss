@@ -151,7 +151,57 @@ header
 .contact
 {
     // background-color: #BDBDBD;
-    height: 100vh;
+    height:          100vh;
+    width:           1230px;
+    display:         flex;
+    justify-content: space-evenly;
+    align-items:     center;
+}
+
+.contact__git, .contact__info
+{
+    margin: 2rem;
+}
+
+
+// CONTACT__GIT
+.contact__git
+{
+    max-width: 370px;
+}
+
+
+// CONTACT_INFO
+.contact__info
+{
+    max-width: 500px;
+    display:   flex;
+    flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: stretch;
+}
+
+.contact__info__email, 
+.contact__info__skype, 
+.contact__info__social, 
+.contact__info__tel
+{
+    min-height: 50px;
+    min-width:  200px;
+    margin:     0.5rem;
+    order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  margin: 5px;
+}
+
+.break
+{
+    display: block;
+    height: 1px;
+    width: 100%;
 }
   
 // <!----------- FOOTER ----------->
