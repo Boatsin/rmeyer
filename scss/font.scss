@@ -161,15 +161,16 @@ header // Change to white after bg is set
 
 .info__email-text, .info__skype-text, .info__social-text, .info__tel-text
 {
-    color:    $grey;
-    font-size: 1.5em;
+    color:        $grey;
+    font-size:     1em;
+    margin-bottom: 1rem;
 }
 
 .info__email, .info__skype, .info__tel
 {
     color:       $blue;
     font-family: 'Playfair Display', serif;
-    font-size:    2em;
+    font-size:    1.5em;
     font-weight:  bold;
 }
 
