@@ -132,6 +132,8 @@ header
     align-items: center;
 }
 
+
+
 .gallery__wrap
 {
     width:     1230px;
@@ -143,17 +145,14 @@ header
 .gallery__img
 {
     height:  10%;
-    padding: 0.75rem 1.5rem;
+    padding: 0.5rem 1rem; // Higher padding will stretch and misplace the pictures
     overflow: hidden;
     flex-grow: 1; // Without this the pics don't fill the whole space
 }
 
 .gallery__subtitle
 {
-    span
-    {
-        display: block;
-    }
+    margin-bottom: 10rem;
 }
 
 .gallery__card

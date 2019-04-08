@@ -1,14 +1,51 @@
 // <!----------- HEADER ----------->
   
-// <!----------- ABOUT #1 ----------->
+// <!----------- ABOUT ----------->
 .about__01__img
 {
     max-width: 997px;
     // height: auto;
     align-self: center;
 }
-// <!----------- ABOUT #2 ----------->
-  
+// <!----------- GALLERY ----------->
+
+.gallery__03
+{
+    position: relative;
+    margin-bottom: 3rem;
+    line-height: 10rem;
+    &::after
+    {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 15%;
+        width: 72px;
+        height: 10px;
+        border-bottom: 4px solid $blue;
+
+    }
+}
+
+.strike
+{
+    display: block;
+    position: relative;
+
+    &::after
+    {
+        content: "";
+        position: absolute;
+        top: -60px;
+        left: 17%;
+        width: 85%;
+        height: 100px;
+        border-bottom: 2px solid $blue;
+        z-index: -1;
+    }
+}
+ 
+
 // <!----------- QUOTE ----------->
   
 // <!----------- CONTACT ----------->
