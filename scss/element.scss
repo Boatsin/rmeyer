@@ -49,5 +49,34 @@
 // <!----------- QUOTE ----------->
   
 // <!----------- CONTACT ----------->
+.contact__git__title
+{
+    margin: 2rem 0;
+}
+
+.contact__btn
+{
+    position:           relative;
+    width:              270px;
+    height:             60px;
+    margin:             2rem 0;
+    background-color: white;
+    border:             1px solid $grey;
+    overflow:           hidden;
+
+    &::after
+    {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 270px;
+        height: 60px;
+        background-color: $blue;
+        // Continue from here https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+        clip-path: polygon(150% 0, 100% 50%, 50% 100%, 0 50%);
+        opacity: 0.2;
+    }
+}
   
 // <!----------- FOOTER ----------->

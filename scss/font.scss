@@ -85,6 +85,11 @@ header // Change to white after bg is set
     color: $grey;
 }
 
+.gallery__overlay
+{
+    text-align: center;
+}
+
 .gallery__card__title
 {   // REFACTOR repeats
     font-family: 'Playfair Display', serif;
@@ -112,6 +117,10 @@ header // Change to white after bg is set
 // <!----------- CONTACT ----------->
 
 // CONTACT_GIT
+.contact__git
+{
+    color: $grey;
+}
 
 .contact__git__04
 {
@@ -125,14 +134,23 @@ header // Change to white after bg is set
 {
     color:       $blue;
     font-family: 'Playfair Display', serif;
-    font-size:    5em;
+    font-size:    3em;
     font-weight:  bold;
 }
 
+.contact__text, .contact__date
+{
+    letter-spacing: 0.2em;
+}
+
+
 .contact__btn
 {
-    color:    $blue;
-    font-size: 1.5em;
+    color:          $blue;
+    font-size:      0.8em;
+    font-weight:    100;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
 }
 
 
