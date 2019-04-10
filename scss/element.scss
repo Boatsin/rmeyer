@@ -34,6 +34,22 @@
     top:    32%;
     right: -25%;
 }
+
+.about__01__01,
+.about__02__02
+{
+    span
+    {
+        color: $blue;
+    }
+}
+
+.about__01__subtitle-01,
+.about__02__subtitle-02
+{
+    margin-top: 1rem;
+}
+
 // <!----------- GALLERY ----------->
 
 .gallery__03
