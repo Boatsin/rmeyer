@@ -29,17 +29,17 @@ header
 
     .header__description
     {
-        max-width: 926px;
+        max-width:  926px;
         text-align: center;
     }
 
     .header__mouse
     {
-        position: relative;
-        top: 12rem;
-        display: flex;
+        position:       relative;
+        top:            12rem;
+        display:        flex;
         flex-direction: column;
-        animation: mouse-bounce 2.4s infinite alternate ease-in-out; 
+        animation:      mouseBounce 2.4s infinite alternate ease-in-out; 
 
         .header__mouse-ico
         {
@@ -48,17 +48,12 @@ header
     }
 }
 
-@keyframes mouse-bounce
+@keyframes mouseBounce
 {
     0% { transform: translateY(-15px); }
 }
   
 // <!----------- ABOUT ----------->
-.about
-{
-    // background-color: #1976D2;
-}
-
 .about__01, .about__02
 {
     position:        relative;

@@ -3,8 +3,7 @@
 // <!----------- ABOUT ----------->
 .about__01__img
 {
-    max-width: 997px;
-    // height: auto;
+    max-width:  997px;
     align-self: center;
 }
 
@@ -15,12 +14,11 @@
 
 .line__01, .line__02
 {
-    position: absolute;
-    width:    290px;
-    height:   2px;
+    position:          absolute;
+    width:             290px;
+    height:            2px;
     background-color: $blue;
-    overflow: hidden;
-
+    overflow:          hidden;
 }
 
 .line__01
@@ -54,17 +52,17 @@
 
 .gallery__03
 {
-    position: relative;
+    position:      relative;
     margin-bottom: 3rem;
-    line-height: 10rem;
+    line-height:   10rem;
     &::after
     {
-        content: "";
-        position: absolute;
-        top: 100%;
-        left: 15%;
-        width: 72px;
-        height: 10px;
+        content:       "";
+        position:      absolute;
+        top:           100%;
+        left:          15%;
+        width:         72px;
+        height:        10px;
         border-bottom: 4px solid $blue;
 
     }
@@ -72,19 +70,19 @@
 
 .strike
 {
-    display: block;
+    display:  block;
     position: relative;
 
     &::after
     {
-        content: "";
-        position: absolute;
-        top: -60px;
-        left: 17%;
-        width: 85%;
-        height: 100px;
+        content:       "";
+        position:      absolute;
+        top:          -60px;
+        left:          17%;
+        width:         85%;
+        height:        100px;
         border-bottom: 2px solid $blue;
-        z-index: -1;
+        z-index:      -1;
     }
 }
  
@@ -106,19 +104,19 @@
     background-color: white;
     border:             1px solid $grey;
     overflow:           hidden;
+    cursor:             pointer;
 
     &::after
     {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 270px;
-        height: 60px;
+        content:           "";
+        position:          absolute;
+        top:               0;
+        left:              0;
+        width:             270px;
+        height:            60px;
         background-color: $blue;
+        clip-path:         polygon(0 0, 15% 0, 8% 100%, 0 100%);
         // Continue from here https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
-        clip-path: polygon(150% 0, 100% 50%, 50% 100%, 0 50%);
-        opacity: 0.2;
     }
 }
   
