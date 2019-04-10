@@ -76,7 +76,7 @@ header // Change to white after bg is set
 
 .gallery__subtitle
 {
-    text-align: right;
+    text-align:  right;
     line-height: 1.2em;
 }
 
@@ -88,13 +88,20 @@ header // Change to white after bg is set
 .gallery__overlay
 {
     text-align: center;
+    color:    white;
 }
 
 .gallery__card__title
 {   // REFACTOR repeats
     font-family: 'Playfair Display', serif;
-    font-size:    3.2em;
+    font-size:    2.8em;
     font-weight:  bold;
+    line-height:  3rem;
+}
+.gallery__card__subtitle
+{
+    letter-spacing: 0.2rem;
+    line-height:    2rem;
 }
 
   

@@ -169,7 +169,7 @@ header
 .gallery__overlay
 {
     position:       absolute;
-    top:            0;
+    top:            40%;
     width:          500px;
     display:        flex;
     flex-direction: column;
@@ -189,11 +189,7 @@ header
     z-index:           1;
 }
 
-.gallery__card__title,
-.gallery__card__subtitle
-{
-    position: absolute;
-}
+
 
 
 

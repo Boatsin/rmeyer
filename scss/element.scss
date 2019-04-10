@@ -7,6 +7,33 @@
     // height: auto;
     align-self: center;
 }
+
+.about__01__01
+{
+    position: relative;
+}
+
+.line__01, .line__02
+{
+    position: absolute;
+    width:    290px;
+    height:   2px;
+    background-color: $blue;
+    
+
+}
+
+.line__01
+{
+    top:   65%;
+    left: -52%;
+}
+
+.line__02
+{
+    top:    32%;
+    right: -27%;
+}
 // <!----------- GALLERY ----------->
 
 .gallery__03
