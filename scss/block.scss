@@ -89,21 +89,22 @@ header
     position: absolute;
 }
 
+
 // ABOUT 01
 .about__01__img
 {
-    top:       50%;
-    right:     0;
-    transform: translate(30%, -50%);
+    top:        50%;
+    right:     -2%;
+    transform:  translate(30%, -50%);
 }
 
 // ABOUT 02
 
 .about__02__img
 {
-    top:       50%;
-    left:      0;
-    transform: translate(-30%, -50%);
+    top:        50%;
+    left:      -2%;
+    transform:  translate(-30%, -50%);
 }
 
 .about__02
@@ -113,7 +114,7 @@ header
 
 .about__02__fig
 {
-    display: flex;
+    display:        flex;
     flex-direction: column;
 }
 
@@ -122,31 +123,27 @@ header
     text-align: right;
 }
 
-
   
 // <!----------- GALLERY ----------->
 .gallery
 {
-    display: flex;
+    display:        flex;
     flex-direction: column;
-    align-items: center;
+    align-items:    center;
 }
-
-
 
 .gallery__wrap
 {
     width:     1230px;
     display:   flex;
     flex-wrap: wrap;
-    // justify-content: center;
 }
 
 .gallery__img
 {
-    height:  10%;
-    padding: 0.5rem 1rem; // Higher padding will stretch and misplace the pictures
-    overflow: hidden;
+    height:    10%;
+    padding:   0.5rem 1rem; // Higher padding will stretch and misplace the pictures
+    overflow:  hidden;
     flex-grow: 1; // Without this the pics don't fill the whole space
 }
 
@@ -188,9 +185,6 @@ header
     opacity:           0.8;
     z-index:           1;
 }
-
-
-
 
 
 // <!----------- QUOTE ----------->
