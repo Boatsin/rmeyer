@@ -231,13 +231,13 @@ header
 .contact__info__social, 
 .contact__info__tel
 {
-    min-height: 50px;
-    width:      200px;
-    margin:     0.5rem;
-    order:      0;
-    flex:       1 1 auto;
-    align-self: auto;
-    margin:     5px;
+    min-height:    50px;
+    width:         200px;
+    margin:        0.5rem;
+    margin-bottom: 2rem;
+    order:         0;
+    flex:          1 1 auto;
+    align-self:    auto;
 }
 
 .contact__info__skype,
@@ -248,8 +248,7 @@ header
 
 .info__social__icons
 {
-    display: flex;
-    
+    display:         flex;
     justify-content: flex-start;
 
     .fab

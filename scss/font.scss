@@ -8,7 +8,9 @@ body
     color:      black;
 }
 
-header, section, footer
+header, 
+section, 
+footer
 {
     font-size: 1.6em;
 }
@@ -42,7 +44,9 @@ header // Change to white after bg is set
     color: black;
 }
 
-.about__01__01, .about__02__02, .gallery__03
+.about__01__01, 
+.about__02__02, 
+.gallery__03
 {
     color:       $grey;
     font-family: 'Playfair Display', serif;
@@ -50,7 +54,9 @@ header // Change to white after bg is set
     font-weight:  bold;
 }
 
-.about__01__subtitle-01, .about__02__subtitle-02, .gallery__subtitle
+.about__01__subtitle-01, 
+.about__02__subtitle-02, 
+.gallery__subtitle
 {
     color:       $blue;
     font-family: 'Playfair Display', serif;
@@ -58,12 +64,15 @@ header // Change to white after bg is set
     font-weight:  bold;
 }
 
-.about__01__subtitle-01 span, .about__02__subtitle-02 span, .gallery__subtitle span
+.about__01__subtitle-01 span, 
+.about__02__subtitle-02 span, 
+.gallery__subtitle span
 {
     color: $grey;
 }
 
-.about__01__description-01, .about__02__description-02
+.about__01__description-01, 
+.about__02__description-02
 {
     font-size:   1.2em;
     line-height: 1.8em;
@@ -145,7 +154,8 @@ header // Change to white after bg is set
     font-weight:  bold;
 }
 
-.contact__text, .contact__date
+.contact__text, 
+.contact__date
 {
     letter-spacing: 0.2em;
 }
@@ -164,14 +174,20 @@ header // Change to white after bg is set
 // CONTACT_INFO
 
 
-.info__email-text, .info__skype-text, .info__social-text, .info__tel-text
+.info__email-text, 
+.info__skype-text, 
+.info__social-text, 
+.info__tel-text
 {
-    color:        $grey;
-    font-size:     1em;
-    margin-bottom: 1rem;
+    color:         $grey;
+    font-size:      0.8em;
+    letter-spacing: 0.2rem;
+    margin-bottom:  1rem;
 }
 
-.info__email, .info__skype, .info__tel
+.info__email, 
+.info__skype, 
+.info__tel
 {
     color:       $blue;
     font-family: 'Playfair Display', serif;

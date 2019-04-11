@@ -1,6 +1,27 @@
+// <!----------- COMMON ----------->
+.line__01, .line__02, .line__04
+{
+    position:          absolute;
+    width:             290px;
+    height:            2px;
+    background-color: $blue;
+    overflow:          hidden;
+}
+
+.about__01__01,
+.about__02__02,
+.contact__git__04
+{
+    span
+    {
+        color: $blue;
+    }
+}
+
+
 // <!----------- HEADER ----------->
   
-// <!----------- ABOUT ----------->
+// <!----------- ABOUT ------------>
 .about__01__img
 {
     max-width:  997px;
@@ -12,14 +33,7 @@
     position: relative;
 }
 
-.line__01, .line__02
-{
-    position:          absolute;
-    width:             290px;
-    height:            2px;
-    background-color: $blue;
-    overflow:          hidden;
-}
+
 
 .line__01
 {
@@ -31,15 +45,6 @@
 {
     top:    32%;
     right: -25%;
-}
-
-.about__01__01,
-.about__02__02
-{
-    span
-    {
-        color: $blue;
-    }
 }
 
 .about__01__subtitle-01,
@@ -93,6 +98,18 @@
 .contact__git__title
 {
     margin: 2rem 0;
+}
+
+.contact__git__04
+{
+    position: relative;
+}
+
+.line__04
+{
+    width: 360px;
+    top:   70%;
+    left: -105%;
 }
 
 .contact__btn
