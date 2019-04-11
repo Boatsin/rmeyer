@@ -54,7 +54,8 @@ header
 }
   
 // <!----------- ABOUT ----------->
-.about__01, .about__02
+.about__01, 
+.about__02
 {
     position:        relative;
     height:          100vh;
@@ -64,12 +65,14 @@ header
     align-items:     center;
 }
 
-.about__01__fig, .about__02__fig
+.about__01__fig, 
+.about__02__fig
 {
     max-width: 615px;
 }
 
-.about__01__subtitle-01, .about__02__subtitle-02
+.about__01__subtitle-01, 
+.about__02__subtitle-02
 {
     margin: 0.8em 0;
 
@@ -79,7 +82,8 @@ header
     }
 }
 
-.about__01__img, .about__02__img
+.about__01__img, 
+.about__02__img
 {
     position: absolute;
 }
@@ -201,7 +205,8 @@ header
     align-items:     center;
 }
 
-.contact__git, .contact__info
+.contact__git, 
+.contact__info
 {
     margin: 2rem;
 }

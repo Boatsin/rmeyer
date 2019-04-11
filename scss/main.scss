@@ -19,7 +19,9 @@ Or just refactor properly
 
 // Media queries at 1920px, 860px, and 320px
 
-*, *::before, *::after
+*, 
+*::before, 
+*::after
 {
     box-sizing:   border-box;
     // background: rgba(0,0,0,0.1); // Box debugger, delete after the website is done
@@ -34,7 +36,8 @@ body
   overflow-x:     hidden; // This cuts off overflowing elements on the left and right of the viewport
 }
 
-header, section
+header, 
+section
 {
   min-width: 320px;
   // max-width: 1230px;  
