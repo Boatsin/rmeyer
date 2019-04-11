@@ -1,3 +1,7 @@
+//  <!--------------------------------------------------->
+//  <!----------- MAX WIDTH : 9999px - 1420px ----------->
+//  <!--------------------------------------------------->
+
 // <!----------- HEADER ----------->
 header
 {
@@ -288,11 +292,6 @@ footer
     color:       #FFF;
     display:        flex;
     flex-direction: column;
-
-    // &:hover .footer__bg-img
-    // {
-    //     filter: grayscale(0);
-    // }
 }
 
 .footer__bg-img
@@ -300,10 +299,9 @@ footer
     position:   absolute;
     top:        0;
     left:       0;
-    max-width:  100%;
+    min-width:  100%;
     height:     100%;
     z-index:    -1;
-    transition: all 0.3s ease-in;
 }
 
 .footer__mark
@@ -318,3 +316,56 @@ footer
     margin-bottom: 1.5rem;
 }
 
+
+//  <!-------------------------------------------------->
+//  <!----------- MID WIDTH : 1369px - 995px ----------->
+//  <!-------------------------------------------------->
+@media screen
+and (max-width: 1419px)
+and (min-width: 800px)
+{
+// <!----------- HEADER ----------->
+
+
+  
+// <!----------- ABOUT ----------->
+
+
+// ABOUT 01
+
+
+// ABOUT 02
+
+
+  
+// <!----------- GALLERY ----------->
+
+
+
+// <!----------- QUOTE ----------->
+
+
+  
+// <!----------- CONTACT ----------->
+
+
+// CONTACT__GIT
+
+
+// CONTACT_INFO
+
+
+  
+// <!----------- FOOTER ----------->
+
+}
+
+//  <!------------------------------------------------->
+//  <!----------- MIN WIDTH : 994px - 320px ----------->
+//  <!------------------------------------------------->
+@media screen
+and (max-width: 799px)
+and (min-width: 320px)
+{
+ 
+}

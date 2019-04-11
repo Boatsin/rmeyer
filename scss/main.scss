@@ -17,14 +17,16 @@ body {
 Or just refactor properly
 */
 
-// Media queries at 1920px, 860px, and 320px
 
+//  <!--------------------------------------------------->
+//  <!----------- MAX WIDTH : 9999px - 1420px ----------->
+//  <!--------------------------------------------------->
 *, 
 *::before, 
 *::after
 {
     box-sizing:   border-box;
-    // background: rgba(0,0,0,0.1); // Box debugger, delete after the website is done
+    background: rgba(236, 113, 113, 0.2); // Box debugger, delete after the website is done
 }
 
 body
@@ -40,7 +42,84 @@ header,
 section
 {
   min-width: 320px;
-  // max-width: 1230px;  
 }
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  <!-------------------------------------------------->
+//  <!----------- MID WIDTH : 1369px - 995px ----------->
+//  <!-------------------------------------------------->
+@media screen
+and (max-width: 1369px)
+and (min-width: 995px)
+{
+  *, 
+  *::before, 
+  *::after
+  {
+      background: rgba(0,0,0,0.1); // Box debugger, delete after the website is done
+  }
+
+  body
+  {
+    padding: 0 5rem;
+    margin: 0;
+  }
+
+  header, 
+  section
+  {
+    min-width: 995px;
+    max-width: 1369px;
+    padding: 0 5rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  <!------------------------------------------------->
+//  <!----------- MIN WIDTH : 994px - 320px ----------->
+//  <!------------------------------------------------->
+@media screen
+and (max-width: 994px)
+and (min-width: 320px)
+{
+  *, 
+  *::before, 
+  *::after
+  {
+      background: rgba(65, 53, 238, 0.1); // Box debugger, delete after the website is done
+  }
+
+  header, 
+  section
+  {
+    min-width: 320px;
+    max-width: 994px;
+    padding: 0 5rem;
+
+  }
+}
