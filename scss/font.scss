@@ -96,13 +96,12 @@ header // Change to white after bg is set
 
 .gallery__card // Change to white after bg is set
 {
-    color: $grey;
+    color: white;
 }
 
 .gallery__overlay
 {
     text-align: center;
-    color:    white;
 }
 
 .gallery__card__title
@@ -224,7 +223,7 @@ and (min-width: 995px)
     
       
     // <!----------- GALLERY ----------->
-
+   
     
     
     // <!----------- QUOTE ----------->
@@ -242,6 +241,15 @@ and (min-width: 995px)
     
       
     // <!----------- FOOTER ----------->
+    footer
+    {
+        left:-5rem; // Both of these...
+    }
+    
+    .footer__mark
+    {
+        margin-left: 10rem; // ...are hacks, I'm so sorry.
+    }
 }
 
 //  <!------------------------------------------------->

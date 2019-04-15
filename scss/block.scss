@@ -364,13 +364,16 @@ and (min-width: 995px)
         align-self:    flex-start;
     }
 
+    .about__01__img
+    {
+        margin-right: 10rem;
+    }
 
 
     // ABOUT 02
     .about__02
     {
         flex-direction: column-reverse;
-
     }
 
     .about__02__fig
