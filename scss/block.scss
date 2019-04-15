@@ -339,9 +339,29 @@ and (min-width: 995px)
   
     // <!----------- ABOUT ----------->
 
+    .about__01,
+    .about__02
+    {
+        width: 995px;
+        flex-direction: column;
+    }
+    
 
     // ABOUT 01
+    .about__01__fig
+    {
+        margin-bottom: 2rem;
+        align-self:    flex-start;
+    }
 
+    .about__01__img
+    {
+        position:   static;
+        margin-right: 5rem;
+        transform:  translate(0,0);
+        align-self: flex-end;
+
+    }
 
     // ABOUT 02
 
