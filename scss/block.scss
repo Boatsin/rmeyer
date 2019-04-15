@@ -342,8 +342,19 @@ and (min-width: 995px)
     .about__01,
     .about__02
     {
-        width: 995px;
+        width:          995px;
         flex-direction: column;
+        margin-bottom:  15rem;
+        padding-top:    5rem;
+    }
+    
+    .about__01__img, 
+    .about__02__img
+    {
+        position:     static;
+        margin-right: 5rem;
+        transform:    translate(0,0);
+        align-self:   flex-end;
     }
     
 
@@ -354,17 +365,28 @@ and (min-width: 995px)
         align-self:    flex-start;
     }
 
-    .about__01__img
+
+
+    // ABOUT 02
+    .about__02
     {
-        position:   static;
-        margin-right: 5rem;
-        transform:  translate(0,0);
-        align-self: flex-end;
+        flex-direction: column-reverse;
 
     }
 
-    // ABOUT 02
+    .about__02__fig
+    {
+        align-self:    flex-end;
+        margin-right:  5rem;
+        margin-bottom: 2rem;
+    }
 
+    
+
+    .about__02__img
+    {
+        align-self: flex-start;
+    }
 
   
     // <!----------- GALLERY ----------->
@@ -423,5 +445,33 @@ and (min-width: 995px)
 and (max-width: 994px)
 and (min-width: 320px)
 {
- 
+    // <!----------- HEADER ----------->
+       
+      
+    // <!----------- ABOUT ----------->
+
+    
+    // ABOUT 01
+
+    
+      
+    // <!----------- GALLERY ----------->
+
+    
+    
+    // <!----------- QUOTE ----------->
+    
+    
+      
+    // <!----------- CONTACT ----------->
+    
+    
+    // CONTACT__GIT
+    
+    
+    // CONTACT_INFO
+    
+    
+      
+    // <!----------- FOOTER ----------->
 }
