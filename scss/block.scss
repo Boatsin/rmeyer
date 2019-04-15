@@ -57,6 +57,8 @@ header
     0% { transform: translateY(-15px); }
 }
   
+
+
 // <!----------- ABOUT ----------->
 .about__01, 
 .about__02
@@ -127,6 +129,7 @@ header
 }
 
   
+
 // <!----------- GALLERY ----------->
 .gallery
 {
@@ -189,6 +192,7 @@ header
 }
 
 
+
 // <!----------- QUOTE ----------->
 .quote
 {
@@ -198,6 +202,8 @@ header
     align-items: center;
 }
   
+
+
 // <!----------- CONTACT ----------->
 .contact
 {
@@ -282,6 +288,8 @@ header
     width:   100%;
 }
   
+
+
 // <!----------- FOOTER ----------->
 footer
 {
@@ -317,11 +325,6 @@ footer
 
 
 
-
-
-
-
-
 //  <!-------------------------------------------------->
 //  <!----------- MID WIDTH : 1369px - 995px ----------->
 //  <!-------------------------------------------------->
@@ -334,6 +337,7 @@ and (min-width: 995px)
     {
         top: 10rem;
     }
+
 
   
     // <!----------- ABOUT ----------->
@@ -383,12 +387,11 @@ and (min-width: 995px)
         margin-bottom: 2rem;
     }
 
-    
-
     .about__02__img
     {
         align-self: flex-start;
     }
+
 
   
     // <!----------- GALLERY ----------->
@@ -408,11 +411,10 @@ and (min-width: 995px)
    .gallery__card
    {
         height: 350px;
-        // flex-grow: 0;
-
 
     .gallery__title
     {
+        top:   7.5rem;
         width: 350px;
     }
 
@@ -426,28 +428,37 @@ and (min-width: 995px)
         height: 335px;
         width:  445px;
     }
-   }
-    
 
     
+   }
+     
  
 
-// <!----------- QUOTE ----------->
+    // <!----------- QUOTE ----------->
 
 
   
-// <!----------- CONTACT ----------->
+    // <!----------- CONTACT ----------->
 
 
-// CONTACT__GIT
+    // CONTACT__GIT
 
 
-// CONTACT_INFO
+    // CONTACT_INFO
 
 
   
-// <!----------- FOOTER ----------->
+    // <!----------- FOOTER ----------->
+    // Footer for some reason moves 5rem to the right for some reason soooo.
+    footer
+    {
+        left:-5rem; // Both of these... 
+    }
 
+    .footer__mark
+    {
+        margin-left: 10rem; // ...are hacks, I'm so sorry.
+    }
 }
 
 
