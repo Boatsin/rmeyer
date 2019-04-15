@@ -1,7 +1,7 @@
 //  <!--------------------------------------------------->
 //  <!----------- MAX WIDTH : 9999px - 1420px ----------->
 //  <!--------------------------------------------------->
-
+@import 'partials/colors';
 // <!----------- HEADER ----------->
 header
 {
@@ -317,29 +317,56 @@ footer
 }
 
 
+
+
+
+
+
+
 //  <!-------------------------------------------------->
 //  <!----------- MID WIDTH : 1369px - 995px ----------->
 //  <!-------------------------------------------------->
 @media screen
-and (max-width: 1419px)
-and (min-width: 800px)
+and (max-width: 1369px)
+and (min-width: 995px)
 {
-// <!----------- HEADER ----------->
+    // <!----------- HEADER ----------->
+    header .header__mouse
+    {
+        top: 10rem;
+    }
+
+  
+    // <!----------- ABOUT ----------->
+
+
+    // ABOUT 01
+
+
+    // ABOUT 02
 
 
   
-// <!----------- ABOUT ----------->
+    // <!----------- GALLERY ----------->
+    .gallery__wrap
+    {
+        width: 995px;
+        justify-content: center;
+    }
 
+    .gallery__img, .gallery__img-card
+    {
+        width: auto;
+        height: 350px;
+        flex-grow: 0;
+    }
 
-// ABOUT 01
-
-
-// ABOUT 02
-
-
-  
-// <!----------- GALLERY ----------->
-
+    .gallery__card, .overlay__background
+    {
+        width: auto;
+        height: 350px;
+        flex-grow: 0;
+    }
 
 
 // <!----------- QUOTE ----------->
@@ -360,11 +387,20 @@ and (min-width: 800px)
 
 }
 
+
+
+
+
+
+
+
+
+
 //  <!------------------------------------------------->
 //  <!----------- MIN WIDTH : 994px - 320px ----------->
 //  <!------------------------------------------------->
 @media screen
-and (max-width: 799px)
+and (max-width: 994px)
 and (min-width: 320px)
 {
  

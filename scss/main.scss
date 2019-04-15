@@ -19,7 +19,7 @@ Or just refactor properly
 
 
 //  <!--------------------------------------------------->
-//  <!----------- MAX WIDTH : 9999px - 1420px ----------->
+//  <!----------- MAX WIDTH : 9999px - 1370px ----------->
 //  <!--------------------------------------------------->
 *, 
 *::before, 
@@ -80,8 +80,9 @@ and (min-width: 995px)
   header, 
   section
   {
-    min-width: 995px;
-    max-width: 1369px;
+    width: 995px;
+    // min-width: 995px;
+    // max-width: 1369px;
     padding: 0 5rem;
   }
 }
