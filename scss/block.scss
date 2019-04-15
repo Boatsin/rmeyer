@@ -144,7 +144,6 @@ header
 
 .gallery__img
 {
-    height:    10%;
     padding:   0.5rem 0.55rem; // Higher padding will stretch and misplace the pictures
     overflow:  hidden;
     flex-grow: 1; // Without this the pics don't fill the whole space
@@ -166,7 +165,7 @@ header
     text-align:      center;
 }
 
-.gallery__overlay
+.gallery__title
 {
     position:       absolute;
     top:            40%;
@@ -392,24 +391,43 @@ and (min-width: 995px)
     // <!----------- GALLERY ----------->
     .gallery__wrap
     {
-        width: 995px;
+        width:           995px;
         justify-content: center;
     }
 
-    .gallery__img, .gallery__img-card
+    .gallery__img
     {
-        width: auto;
-        height: 350px;
+        width:     auto;
+        height:    350px;
         flex-grow: 0;
     }
 
-    .gallery__card, .overlay__background
-    {
-        width: auto;
+   .gallery__card
+   {
         height: 350px;
-        flex-grow: 0;
+        // flex-grow: 0;
+
+
+    .gallery__title
+    {
+        width: 350px;
     }
 
+    .gallery__img-card
+    {
+        width: 445px;
+    }
+
+    .overlay__background
+    {
+        height: 335px;
+        width:  445px;
+    }
+   }
+    
+
+    
+ 
 
 // <!----------- QUOTE ----------->
 
