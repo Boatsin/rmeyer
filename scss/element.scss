@@ -204,9 +204,38 @@ and (min-width: 320px)
     
       
     // <!----------- GALLERY ----------->
+    .gallery__03
+    {
+        &::after
+        {
+            left: 8%;
+        }
+    }
 
+    .strike
+    {
+        &::after
+        {
+            top: -80px;
+        }
+    }
+
+    .gallery__wrap
+    {
+        width:          800px;
+        flex-direction: column;
+        align-items:    center;
+
+        .gallery__img
+        {
+            width:     50%;
+            padding: 0.25rem 0;
+            flex-grow: 0;
+        }
+    }
     
-    
+
+
     // <!----------- QUOTE ----------->
     
     
