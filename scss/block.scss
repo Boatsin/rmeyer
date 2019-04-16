@@ -64,7 +64,7 @@ header
 .about__02
 {
     position:        relative;
-    height:          100vh;
+    min-height:      1000px;
     width:           1230px;
     display:         flex;
     justify-content: space-between; 
@@ -207,7 +207,7 @@ header
 // <!----------- CONTACT ----------->
 .contact
 {
-    height:          100vh;
+    min-height:          700px;
     width:           1230px;
     display:         flex;
     justify-content: space-evenly;
@@ -278,7 +278,6 @@ header
             color: $blue;
         }
     }
-
 }
 
 .break
@@ -346,7 +345,6 @@ and (min-width: 995px)
     .about__02
     {
         width:          995px;
-        min-height: 100vh;
         flex-direction: column;
         margin-bottom:  15rem;
         padding-top:    5rem;
