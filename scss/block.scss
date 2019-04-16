@@ -488,11 +488,48 @@ and (min-width: 320px)
     }
       
     // <!----------- ABOUT ----------->
+    .about__01,
+    .about__02
+    {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
 
+    .about__01__img,
+    .about__02__img
+    {
+        position:  static;
+        width: 100%;
+        transform: translate(0,0);
+    }
+
+    .about__01__fig,
+    .about__02__fig
+    {
+        width:   400px;
+        padding: 0 1rem;
+        margin-bottom: 2rem;
+    }
     
     // ABOUT 01
+    .about__01__fig
+    {
+        align-self: flex-start;
+    }
 
     
+
+    // ABOUT 02
+    .about__02
+    {
+        flex-direction: column-reverse;
+    }
+
+    .about__02__fig
+    {
+        align-self: flex-end;
+    }
       
     // <!----------- GALLERY ----------->
 

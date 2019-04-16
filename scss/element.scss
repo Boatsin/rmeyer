@@ -12,6 +12,7 @@
     height:            2px;
     background-color: $blue;
     overflow:          hidden;
+    z-index: -1;
 }
 
 .about__01__01,
@@ -28,18 +29,11 @@
 // <!----------- HEADER ----------->
   
 // <!----------- ABOUT ------------>
-.about__01__img
-{
-    max-width:  997px;
-}
-
 .about__01__01,
 .about__02__02
 {
     position: relative;
 }
-
-
 
 .line__01
 {
@@ -203,7 +197,7 @@ and (min-width: 320px)
     
       
     // <!----------- ABOUT ----------->
-
+    
     
     // ABOUT 01
 
