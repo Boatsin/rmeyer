@@ -33,7 +33,8 @@
     max-width:  997px;
 }
 
-.about__01__01
+.about__01__01,
+.about__02__02
 {
     position: relative;
 }
@@ -48,8 +49,8 @@
 
 .line__02
 {
-    top:    35%;
-    right: -25%;
+    top:    65%;
+    right: -52%;
 }
 
 .about__01__subtitle-01,
@@ -166,10 +167,7 @@ and (min-width: 995px)
     // ABOUT 01
 
     // ABOUT 02
-    .line__02
-    {
-        top: 7%;
-    }
+    
 
 
     // <!----------- GALLERY ----------->

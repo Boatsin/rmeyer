@@ -346,6 +346,7 @@ and (min-width: 995px)
     .about__02
     {
         width:          995px;
+        min-height: 100vh;
         flex-direction: column;
         margin-bottom:  15rem;
         padding-top:    5rem;
