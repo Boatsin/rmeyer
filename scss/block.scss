@@ -334,7 +334,7 @@ and (min-width: 995px)
     // <!----------- HEADER ----------->
     header .header__mouse
     {
-        top: 10rem;
+        top: 6rem;
     }
 
 
@@ -476,8 +476,16 @@ and (min-width: 995px)
 and (max-width: 994px)
 and (min-width: 320px)
 {
+    
     // <!----------- HEADER ----------->
-       
+    header
+    {
+        min-height: 500px;
+        .header__mouse
+        {
+            top: 1rem;
+        }
+    }
       
     // <!----------- ABOUT ----------->
 

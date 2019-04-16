@@ -251,8 +251,21 @@ and (min-width: 995px)
 and (max-width: 994px)
 and (min-width: 320px)
 {
+    body
+    {
+        font-size: 50%;
+    }
     // <!----------- HEADER ----------->
-       
+    .header__name
+    {
+        font-size:  4em;
+        text-align: center;
+    }
+
+    .header__description
+    {
+        display: none;
+    }
       
     // <!----------- ABOUT ----------->
 
