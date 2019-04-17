@@ -1,7 +1,7 @@
-//  <!--------------------------------------------------->
-//  <!----------- MAX WIDTH : 9999px - 1420px ----------->
-//  <!--------------------------------------------------->
 @import 'partials/colors';
+//  <!---------------------------------------------------------------------------------------------------->
+//  <!----------- MAX WIDTH : 9999px - 1370px ------------------------------------------------------------>
+//  <!---------------------------------------------------------------------------------------------------->
 // <!----------- HEADER ----------->
 header
 {
@@ -10,32 +10,6 @@ header
     flex-direction:   column;
     align-items:      center;
     justify-content:  center;
-
-    .header__bg-img
-    {
-        position:   absolute;
-        top:        0;
-        left:       0;
-        min-width:  100%;
-        max-height: 100%;
-        z-index:    -1;
-    }
-
-    .header__greet
-    {
-        margin: 50px auto;
-    }
-
-    .header__name
-    {
-        margin-bottom: 50px;
-    }
-
-    .header__description
-    {
-        max-width:  926px;
-        text-align: center;
-    }
 
     .header__mouse
     {
@@ -71,61 +45,12 @@ header
     align-items:     center;
 }
 
-.about__01__fig, 
-.about__02__fig
-{
-    max-width: 615px;
-}
-
-.about__01__subtitle-01, 
-.about__02__subtitle-02
-{
-    margin: 0.8em 0;
-
-    span
-    {
-        display: block;
-    }
-}
-
-.about__01__img, 
-.about__02__img
-{
-    position: absolute;
-}
-
-
 // ABOUT 01
-.about__01__img
-{
-    top:        50%;
-    right:     -2%;
-    transform:  translate(30%, -50%);
-}
 
 // ABOUT 02
-
-.about__02__img
-{
-    top:        50%;
-    left:      -2%;
-    transform:  translate(-30%, -50%);
-}
-
 .about__02
 {
     flex-direction: row-reverse;
-}
-
-.about__02__fig
-{
-    display:        flex;
-    flex-direction: column;
-}
-
-.about__02__02
-{
-    text-align: right;
 }
 
   
@@ -152,10 +77,7 @@ header
     flex-grow: 1; // Without this the pics don't fill the whole space
 }
 
-.gallery__subtitle
-{
-    margin-bottom: 10rem;
-}
+
 
 .gallery__card
 {
@@ -168,37 +90,14 @@ header
     text-align:      center;
 }
 
-.gallery__title
-{
-    position:       absolute;
-    top:            40%;
-    width:          500px;
-    display:        flex;
-    flex-direction: column;
-    align-items:    center;
-    z-index:        2;
-}
-
-.overlay__background
-{
-    position:          absolute;
-    top:               0.5rem; // Padding values...
-    left:              0.55rem;   // ...from .gallery_card
-    width:             570px;
-    height:            427px;
-    background-color: $blue;
-    opacity:           0.8;
-    z-index:           1;
-}
-
 
 
 // <!----------- QUOTE ----------->
 .quote
 {
-    height: 100vh;
-    max-width: 1230px;
-    display: flex;
+    height:      100vh;
+    max-width:   1230px;
+    display:     flex;
     align-items: center;
 }
   
@@ -207,7 +106,7 @@ header
 // <!----------- CONTACT ----------->
 .contact
 {
-    min-height:          700px;
+    min-height:      700px;
     width:           1230px;
     display:         flex;
     justify-content: space-evenly;
@@ -227,7 +126,6 @@ header
     max-width: 370px;
 }
 
-
 // CONTACT_INFO
 .contact__info
 {
@@ -238,46 +136,6 @@ header
   justify-content: space-between;
   align-content:   stretch;
   align-items:     stretch;
-}
-
-.contact__info__email, 
-.contact__info__skype, 
-.contact__info__social, 
-.contact__info__tel
-{
-    min-height:    50px;
-    width:         200px;
-    margin:        0.5rem;
-    margin-bottom: 2rem;
-    order:         0;
-    flex:          1 1 auto;
-    align-self:    auto;
-}
-
-.contact__info__skype,
-.contact__info__tel
-{
-    margin-left: 1.5rem;
-}
-
-.info__social__icons
-{
-    display:         flex;
-    justify-content: flex-start;
-
-    .fab
-    {
-        width:        20px;
-        height:       20px;
-        margin-right: 2.2rem;
-        font-size:    35px;
-        color:       $grey;
-
-        &:nth-child(4)
-        {
-            color: $blue;
-        }
-    }
 }
 
 .break
@@ -300,33 +158,12 @@ footer
     flex-direction: column;
 }
 
-.footer__bg-img
-{
-    position:   absolute;
-    top:        0;
-    left:       0;
-    min-width:  100%;
-    height:     100%;
-    z-index:    -1;
-}
-
-.footer__mark
-{
-    position:   relative;
-    top:        50%;
-    text-align: center;
-}
-
-.footer__logo
-{
-    margin-bottom: 1.5rem;
-}
 
 
 
-//  <!-------------------------------------------------->
-//  <!----------- MID WIDTH : 1369px - 995px ----------->
-//  <!-------------------------------------------------->
+//  <!--------------------------------------------------------------------------------------------------->
+//  <!----------- MID WIDTH : 1369px - 995px ------------------------------------------------------------>
+//  <!--------------------------------------------------------------------------------------------------->
 @media screen
 and (max-width: 1369px)
 and (min-width: 995px)
@@ -336,8 +173,6 @@ and (min-width: 995px)
     {
         top: 6rem;
     }
-
-
   
     // <!----------- ABOUT ----------->
 
@@ -350,45 +185,13 @@ and (min-width: 995px)
         padding-top:    5rem;
     }
     
-    .about__01__img, 
-    .about__02__img
-    {
-        position:     static;
-        margin-right: 5rem;
-        transform:    translate(0,0);
-        align-self:   flex-end;
-    }
-    
-
     // ABOUT 01
-    .about__01__fig
-    {
-        margin-bottom: 2rem;
-        align-self:    flex-start;
-    }
-
-    .about__01__img
-    {
-        margin-right: 10rem;
-    }
-
+    
 
     // ABOUT 02
     .about__02
     {
         flex-direction: column-reverse;
-    }
-
-    .about__02__fig
-    {
-        align-self:    flex-end;
-        margin-right:  5rem;
-        margin-bottom: 2rem;
-    }
-
-    .about__02__img
-    {
-        align-self: flex-start;
     }
 
 
@@ -410,45 +213,21 @@ and (min-width: 995px)
    .gallery__card
    {
         height: 350px;
-
-    .gallery__title
-    {
-        top:   7.5rem;
-        width: 350px;
-    }
-
-    .gallery__img-card
-    {
-        width: 445px;
-    }
-
-    .overlay__background
-    {
-        height: 335px;
-        width:  445px;
-    }
-
-    
    }
-     
- 
+    
+
 
     // <!----------- QUOTE ----------->
 
-
-  
     // <!----------- CONTACT ----------->
-
 
     // CONTACT__GIT
 
-
     // CONTACT_INFO
-
-
   
+
+
     // <!----------- FOOTER ----------->
-    // Footer for some reason moves 5rem to the right for some reason soooo.
     footer
     {
         left:-5rem; // Both of these... 
@@ -462,21 +241,13 @@ and (min-width: 995px)
 
 
 
-
-
-
-
-
-
-
-//  <!------------------------------------------------->
-//  <!----------- MIN WIDTH : 994px - 320px ----------->
-//  <!------------------------------------------------->
+//  <!-------------------------------------------------------------------------------------------------->
+//  <!----------- MIN WIDTH : 994px - 320px ------------------------------------------------------------>
+//  <!-------------------------------------------------------------------------------------------------->
 @media screen
 and (max-width: 994px)
 and (min-width: 320px)
 {
-    
     // <!----------- HEADER ----------->
     header
     {
@@ -496,29 +267,8 @@ and (min-width: 320px)
         justify-content: center;
     }
 
-    .about__01__img,
-    .about__02__img
-    {
-        position:  static;
-        width: 100%;
-        transform: translate(0,0);
-    }
-
-    .about__01__fig,
-    .about__02__fig
-    {
-        width:   400px;
-        padding: 0 1rem;
-        margin-bottom: 2rem;
-    }
-    
     // ABOUT 01
-    .about__01__fig
-    {
-        align-self: flex-start;
-    }
 
-    
 
     // ABOUT 02
     .about__02
@@ -527,28 +277,17 @@ and (min-width: 320px)
         flex-direction: column-reverse;
     }
 
-    .about__02__fig
-    {
-        align-self: flex-end;
-    }
+    
       
     // <!----------- GALLERY ----------->
-
-    
     
     // <!----------- QUOTE ----------->
-    
-    
       
     // <!----------- CONTACT ----------->
     
-    
     // CONTACT__GIT
-    
     
     // CONTACT_INFO
     
-    
-      
     // <!----------- FOOTER ----------->
 }
