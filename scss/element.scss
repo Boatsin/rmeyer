@@ -7,7 +7,7 @@
     height:            2px;
     background-color: $blue;
     overflow:          hidden;
-    z-index:           -1;
+    z-index:          -1;
 }
 
 //  <!---------------------------------------------------------------------------------------------------->
@@ -125,6 +125,7 @@ header
     position:      relative;
     margin-bottom: 3rem;
     line-height:   10rem;
+
     &::after
     {
         content:       "";
@@ -170,7 +171,7 @@ header
 .overlay__background
 {
     position:          absolute;
-    top:               0.5rem; // Padding values...
+    top:               0.5rem;    // Padding values...
     left:              0.55rem;   // ...from .gallery_card
     width:             570px;
     height:            427px;
@@ -224,7 +225,6 @@ header
         height:            60px;
         background-color: $blue;
         clip-path:         polygon(0 0, 15% 0, 8% 100%, 0 100%);
-        // Continue from here https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
     }
 }
   
@@ -326,7 +326,6 @@ and (min-width: 995px)
     {
         margin-right: 10rem;
     }
-    
 
     // ABOUT 02
     .about__02__fig
@@ -366,7 +365,6 @@ and (min-width: 995px)
     
     // <!----------- QUOTE ----------->
     
-    
       
     // <!----------- CONTACT ----------->
     
@@ -375,7 +373,6 @@ and (min-width: 995px)
     
     
     // CONTACT_INFO
-    
     
       
     // <!----------- FOOTER ----------->
@@ -396,15 +393,15 @@ and (min-width: 320px)
     .about__02__img
     {
         position:  static;
-        width: 100%;
+        width:     100%;
         transform: translate(0,0);
     }
 
     .about__01__fig,
     .about__02__fig
     {
-        width:   400px;
-        padding: 0 1rem;
+        width:         400px;
+        padding:       0 1rem;
         margin-bottom: 2rem;
     }
     
@@ -451,11 +448,9 @@ and (min-width: 320px)
             flex-grow: 0;
         }
     }
-    
 
 
     // <!----------- QUOTE ----------->
-    
     
       
     // <!----------- CONTACT ----------->
@@ -483,7 +478,6 @@ and (min-width: 320px)
     
     
     // CONTACT_INFO
-    
     
       
     // <!----------- FOOTER ----------->
