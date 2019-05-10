@@ -9,22 +9,31 @@
   position: fixed;
   top:      50%;
   right:    0;
-  width:    50px;
-  height:   50px;
+  width:    45px;
+  height:   62px;
   margin:   0;
   z-index:  99;
+
+  
 
   @for $i from 1 to 6
   {
     .stick-#{$i}
     {
-      width:              40px;
-      height:             4px;
-      margin-left:        1rem;
-      margin-bottom:      0.3rem;
-      background-color: red;
+      width:              45px;
+      height:             2px;
+      margin-left:        26px;
+      margin-bottom:      13px;
+      background-color: #FFF;
       opacity:            0.5;
     }
+  }
+
+  .stick-active
+  {
+    width:   45px;
+    opacity: 1;
+    margin-left: 0;
   }
 }
 
