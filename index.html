@@ -30,17 +30,17 @@
 <body>
   <!-- Sidebar element, sticky -->
   <div class="sticky-scroll">
-    <div class="stick stick-active"></div><!-- Maybe put span in divs to make interaction surface bigger -->
-    <div class="stick"></div>
-    <div class="stick"></div>
-    <div class="stick"></div>
-    <div class="stick"></div>
+    <div class="toHeader stick stick-active" ></div><!-- Maybe put span in divs to make interaction surface bigger -->
+    <div class="toAbout stick"></div>
+    <div class="toGallery stick"></div>
+    <div class="toContact stick"></div>
+    <div class="toFooter stick"></div>
   </div>
 
   <!------------------------------>
   <!----------- HEADER ----------->
   <!------------------------------>
-  <header>
+  <header id="toHeader">
     <img src="./scss/img/Header_BG.png" alt="" class="header__bg-img">
     <p class="header__greet">HI, MY NAME IS</p>
     <h1 class="header__name">Robert Mayer</h1>
@@ -58,7 +58,7 @@
   <!-------------------------------->
   <!----------- ABOUT #1 ----------->
   <!-------------------------------->
-  <section class="about">
+  <section class="about" id="toAbout">
 
     <article class="about__01">
       <div class="about__01__fig">
@@ -93,7 +93,7 @@
   <!-------------------------------->
   <!----------- GALLERY ------------>
   <!-------------------------------->
-  <section class="gallery">
+  <section class="gallery" id="toGallery">
     <h1 class="gallery__03">03</h1>
     <h2 class="gallery__subtitle">Design means being good,<span class="strike"> Not just looking good</span></h2>
     <article class="gallery__wrap">
@@ -131,7 +131,7 @@
   <!------------------------------->
   <!----------- CONTACT ----------->
   <!------------------------------->
-  <section class="contact">
+  <section class="contact" id="toContact">
     <article class="contact__git">
       <h1 class="contact__git__04"><span class="line__04"></span>04 <span>/</span></h1>
       <h2 class="contact__git__title">Get in touch</h2>
@@ -176,7 +176,7 @@
   <!------------------------------>
   <!----------- FOOTER ----------->
   <!------------------------------>
-  <footer>
+  <footer id="toFooter">
     <img src="./scss/img/Footer_BG.png" alt="" class="footer__bg-img">
     <div class="footer__mark">
       <img src="./scss/img/Header_Logo.png" alt="" class="footer__logo">

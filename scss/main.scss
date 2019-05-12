@@ -4,6 +4,11 @@
 @import 'element';
 @import 'modifier';
 // This is where the sidebar element will go
+html
+{
+  scroll-behavior: smooth; // Enable smooth scrolling for the whole page
+}
+
 .sticky-scroll
 {
   position: fixed;
@@ -14,18 +19,15 @@
   margin:   0;
   z-index:  99;
 
-  
-
-  
   .stick
   {
     width:              45px;
     height:             2px;
     margin-left:        26px;
     margin-bottom:      13px;
-    background-color: #FFF;
+    background-color:   $grey;
     opacity:            0.5;
-    transition: all 0.5s;
+    transition:         all 0.5s;
   }
   .stick:hover
   {
@@ -33,7 +35,6 @@
     opacity:     1;
     margin-left: 0;
   }
-
 
   .stick-active
   {

@@ -3,7 +3,11 @@ var scrollItem = document.querySelectorAll('.stick');
 
 const handleScroll = (evt) =>
 {
-    console.log(scrollItem.length);
+    let sectionId = evt.srcElement.className.split(" ", 1);
+    document.getElementById(`${sectionId}`).scrollIntoView({behaviour: 'smooth'});
+    // console.log(evt.srcElement.className.split(" ", 1));
+
+    // console.log(scrollItem.length);
     for(let i=0;i<scrollItem.length;i++) 
     {
         scrollItem[i].classList.remove('stick-active');
@@ -12,7 +16,6 @@ const handleScroll = (evt) =>
     evt.srcElement.classList.add('stick-active')
 
     console.log(evt.srcElement);
-    // scrollItem.classList.add('stick-active');
 }
 
-scroll.addEventListener('click', handleScroll)
+scroll.addEventListener('click', handleScroll);
