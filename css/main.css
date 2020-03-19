@@ -180,7 +180,9 @@ footer {
   }
 }
 header {
+  width: 100vw;
   height: 100vh;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -206,7 +208,6 @@ header .header__mouse .header__mouse-ico {
 .about__02 {
   position: relative;
   min-height: 1000px;
-  width: 1230px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -223,7 +224,6 @@ header .header__mouse .header__mouse-ico {
 }
 
 .gallery__wrap {
-  width: 1230px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -246,14 +246,13 @@ header .header__mouse .header__mouse-ico {
 
 .quote {
   height: 100vh;
-  max-width: 1230px;
   display: flex;
   align-items: center;
 }
 
 .contact {
   min-height: 700px;
-  width: 1230px;
+  width: 100vw;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -285,6 +284,7 @@ header .header__mouse .header__mouse-ico {
 }
 
 footer {
+  overflow-x: hidden;
   position: relative;
   width: 100%;
   height: 380px;
@@ -308,11 +308,6 @@ footer {
 
   .about__02 {
     flex-direction: column-reverse;
-  }
-
-  .gallery__wrap {
-    width: 995px;
-    justify-content: center;
   }
 
   .gallery__img {
@@ -343,7 +338,6 @@ footer {
 
   .about__01,
 .about__02 {
-    width: 100%;
     flex-direction: column;
     justify-content: center;
   }
@@ -370,6 +364,7 @@ header .header__bg-img {
   left: 0;
   min-width: 100%;
   max-height: 100%;
+  overflow-x: hidden;
   z-index: -1;
 }
 header .header__greet {
@@ -652,7 +647,6 @@ header .header__description {
   }
 
   .gallery__wrap {
-    width: 800px;
     flex-direction: column;
     align-items: center;
   }
@@ -678,6 +672,7 @@ header .header__description {
   }
 }
 html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -717,7 +712,7 @@ html {
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -726,7 +721,7 @@ body {
 
 header,
 section {
-  min-width: 320px;
+  width: 100vw;
 }
 
 @media screen and (max-width: 1369px) and (min-width: 995px) {
@@ -737,14 +732,12 @@ section {
 
   header,
 section {
-    width: 995px;
     padding: 0 5rem;
   }
 }
 @media screen and (max-width: 994px) and (min-width: 320px) {
   header,
 section {
-    min-width: 405px;
     padding: 0 5rem;
   }
 }

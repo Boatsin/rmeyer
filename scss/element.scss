@@ -1,3 +1,5 @@
+@import 'partials/colors';
+
 .line__01, 
 .line__02, 
 .line__04
@@ -23,6 +25,8 @@ header
         left:       0;
         min-width:  100%;
         max-height: 100%;
+        overflow-x: hidden;
+
         z-index:    -1;
     }
 
@@ -437,7 +441,7 @@ and (min-width: 320px)
 
     .gallery__wrap
     {
-        width:          800px;
+        // width:          800px;
         flex-direction: column;
         align-items:    center;
 

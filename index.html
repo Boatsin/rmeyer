@@ -29,8 +29,8 @@
 
 <body>
   <!-- Sidebar element, sticky -->
-  <div class="sticky-scroll">
-    <div class="toHeader stick stick-active" ></div><!-- Maybe put span in divs to make interaction surface bigger -->
+  <div class="sticky-scroll">  
+    <div class="toHeader stick stick-active" ></div>
     <div class="toAbout stick"></div>
     <div class="toGallery stick"></div>
     <div class="toContact stick"></div>
@@ -41,7 +41,10 @@
   <!----------- HEADER ----------->
   <!------------------------------>
   <header id="toHeader">
-    <img src="./scss/img/Header_BG.png" alt="" class="header__bg-img">
+    <div class="imgContainer">
+      <img src="./scss/img/Header_BG.png" alt="background image" class="header__bg-img">
+    </div>
+
     <p class="header__greet">HI, MY NAME IS</p>
     <h1 class="header__name">Robert Mayer</h1>
     <p class="header__description">
@@ -108,9 +111,9 @@
           <h1 class="gallery__card__title">The Higher Grounds</h1>
           <h2 class="gallery__card__subtitle">BRANDING, LOGO</h2>
         </div>
-        <div class="overlay__background"></div>
+       <div class="overlay__background"></div> 
 
-        <img src="./scss/img/Gallery06--overlay.png" alt="" class="gallery__img-card">
+       <img src="./scss/img/Gallery06--overlay.png" alt="" class="gallery__img-card">
       </div>
 
       <img src="./scss/img/Gallery07.png" alt="" class="gallery__img">
