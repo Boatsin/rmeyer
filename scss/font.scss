@@ -129,6 +129,7 @@ header // Change to white after bg is set
 // <!----------- QUOTE ----------->
 .quote__text
 {   // REFACTOR repeats
+    width: 90vw;
     color:       $blue;
     font-family: 'Playfair Display', serif;
     line-height:  1.4em;

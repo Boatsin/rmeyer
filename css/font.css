@@ -95,6 +95,7 @@ header {
 }
 
 .quote__text {
+  width: 90vw;
   color: #0B6890;
   font-family: "Playfair Display", serif;
   line-height: 1.4em;
