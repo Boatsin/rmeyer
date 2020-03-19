@@ -5,7 +5,7 @@
 # Created by https://www.gitignore.io/api/node,bower,osx,linux,windows,dropbox,sass,less,grunt,sublimetext,code
 
 Readme.txt
-scss/img/*
+# scss/img/*
 
 ### Node ###
 # Logs
@@ -123,7 +123,7 @@ $RECYCLE.BIN/
 
 
 ### Less ###
-*.css
+# *.css
 
 
 ### grunt ###
