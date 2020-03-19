@@ -204,10 +204,6 @@ header .header__mouse .header__mouse-ico {
     transform: translateY(-15px);
   }
 }
-.about {
-  width: 100vw;
-}
-
 .about__01,
 .about__02 {
   position: relative;
@@ -401,6 +397,7 @@ header .header__description {
 .about__01__fig,
 .about__02__fig {
   max-width: 615px;
+  padding: 0 1rem;
 }
 
 .about__01__subtitle-01,
@@ -416,11 +413,8 @@ header .header__description {
   padding-right: 1rem;
 }
 
-.about__02__subtitle-02 {
-  padding-left: 1rem;
-}
-
-.about__01__description-01 {
+.about__01__description-01,
+.about__02__description-02 {
   padding-right: 1rem;
 }
 
@@ -644,7 +638,6 @@ header .header__description {
   .about__01__fig,
 .about__02__fig {
     width: 400px;
-    padding: 0;
     margin-bottom: 2rem;
   }
 
@@ -737,8 +730,7 @@ body {
   overflow-x: hidden;
 }
 
-header,
-section {
+header {
   width: 100vw;
 }
 

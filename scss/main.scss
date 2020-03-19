@@ -66,8 +66,8 @@ body
   overflow-x:     hidden; // This cuts off overflowing elements on the left and right of the viewport
 }
 
-header, 
-section
+// section
+header
 {
   width: 100vw;
 }

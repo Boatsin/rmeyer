@@ -72,6 +72,7 @@ header
 .about__02__fig
 {
     max-width: 615px;
+    padding: 0 1rem;
 }
 
 .about__01__subtitle-01, 
@@ -90,12 +91,13 @@ header
     padding-right: 1rem;
 }
 
-.about__02__subtitle-02
-{
-    padding-left: 1rem;
-}
+// .about__02__subtitle-02
+// {
+//     padding-left: 1rem;
+// }
 
-.about__01__description-01
+.about__01__description-01,
+.about__02__description-02
 {
     padding-right: 1rem;
 }
@@ -426,7 +428,7 @@ and (min-width: 320px)
     .about__02__fig
     {
         width:         400px;
-        padding:       0;
+        // padding:       0;
         margin-bottom: 2rem;
     }
     
