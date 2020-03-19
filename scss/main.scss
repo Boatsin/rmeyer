@@ -6,7 +6,7 @@
 // This is where the sidebar element will go
 html
 {
-  overflow-x: hidden;
+  overflow-x:      hidden; // hax
   scroll-behavior: smooth; // Enable smooth scrolling for the whole page
 }
 
@@ -83,7 +83,7 @@ and (min-width: 995px)
 {
   body
   {
-    padding: 0 5rem;
+    padding: 0 1rem;
     margin:  0;
   }
 
@@ -91,7 +91,7 @@ and (min-width: 995px)
   section
   {
     // width:   995px;
-    padding: 0 5rem;
+    padding: 0 1rem;
   }
 }
 
@@ -108,7 +108,7 @@ and (min-width: 320px)
   section
   {
     // min-width: 405px;
-    padding:   0 5rem;
+    padding:   0 1rem;
 
   }
 }

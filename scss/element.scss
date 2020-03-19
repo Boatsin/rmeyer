@@ -85,6 +85,26 @@ header
     }
 }
 
+.about__01__subtitle-01
+{
+    padding-right: 1rem;
+}
+
+.about__02__subtitle-02
+{
+    padding-left: 1rem;
+}
+
+.about__01__description-01
+{
+    padding-right: 1rem;
+}
+
+// .about__02__description-02
+// {
+//     padding-left: 1rem;
+// }
+
 .about__01__img, 
 .about__02__img
 {
@@ -108,7 +128,8 @@ header
 
 .about__02__02
 {
-    text-align: right;
+    text-align:    right;
+    padding-right: 2rem;
 }
 
 .about__02__img
@@ -405,7 +426,7 @@ and (min-width: 320px)
     .about__02__fig
     {
         width:         400px;
-        padding:       0 1rem;
+        padding:       0;
         margin-bottom: 2rem;
     }
     
@@ -418,7 +439,7 @@ and (min-width: 320px)
     // ABOUT 02
     .about__02__fig
     {
-        align-self: flex-end;
+        align-self: flex-start;
     }
     
       

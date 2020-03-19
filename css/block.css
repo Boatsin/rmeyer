@@ -23,12 +23,17 @@ header .header__mouse .header__mouse-ico {
     transform: translateY(-15px);
   }
 }
+.about {
+  width: 100vw;
+}
+
 .about__01,
 .about__02 {
   position: relative;
   min-height: 1000px;
+  width: 100vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 

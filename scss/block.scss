@@ -40,14 +40,20 @@ header
 
 
 // <!----------- ABOUT ----------->
+.about
+{
+    width: 100vw;
+//   padding: 2rem calc(20px + 40 * ((100vw - 320px) / 2240));
+}
+
 .about__01, 
 .about__02
 {
     position:        relative;
     min-height:      1000px;
-    // width:           1230px;
+    width: 100vw;
     display:         flex;
-    justify-content: space-between; 
+    justify-content: space-around; 
     align-items:     center;
 }
 
